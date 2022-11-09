@@ -1,0 +1,49 @@
+<!--html: 5-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="boxmodel.css">
+    <title>Emmet tutorial</title>
+</head>
+<body>
+    <!--head-->
+    <head></head>
+    <!--p-->
+    <p></p>
+    <!-- head>h1{Mi titulo} -->
+    <head>
+        <h1>mi titulo</h1>
+        <!-- nav>button[class="botoncito" onclick="alert('hola $');"]{mi boton $}*5 -->
+        <nav>
+            <button class="botoncito" onclick="alert('hola 1');">mi boton 1</button>
+            <button class="botoncito" onclick="alert('hola 2');">mi boton 2</button>
+            <button class="botoncito" onclick="alert('hola 3');">mi boton 3</button>
+            <button class="botoncito" onclick="alert('hola 4');">mi boton 4</button>
+            <button class="botoncito" onclick="alert('hola 5');">mi boton 5</button>
+        </nav>
+    </head>
+    <!-- main+footer -->
+    <main>
+        <!-- (article>h2{Capitulo $})*5 -->
+        <article class="miarticulo" id="">
+            <h2>Capitulo 1</h2>
+        </article>
+        <article class="miarticulo" id="">
+            <h2>Capitulo 2</h2>
+        </article>
+        <article class="miarticulo" id="">
+            <h2>Capitulo 3</h2>
+        </article>
+        <article class="miarticulo" id="">
+            <h2>Capitulo 4</h2>
+        </article>
+        <article class="miarticulo" id="">
+            <h2>Capitulo 5</h2>
+        </article>
+    </main>
+    <footer></footer>
+</body>
+</html>

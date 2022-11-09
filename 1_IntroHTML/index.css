@@ -1,0 +1,23 @@
+header{
+    background-color: black;
+    color: blanchedalmond;
+    font-family: cursive;
+}
+
+article{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+    margin: 10px;
+} 
+
+.azul{
+    background-color: aqua;
+}
+
+.verde{
+    background-color: green; 
+}
+
+#articulo3{
+    background-color: #c12db2;
+} 
