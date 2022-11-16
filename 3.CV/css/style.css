@@ -1,0 +1,95 @@
+* , html {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.about_me {
+    display: flex;
+    flex-wrap: nowrap; /* No de un salto de linea */ 
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+p {
+    margin-top: 10px;
+    font-family: 'Lucida Sans';
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.profile_image {
+    margin-top: 15px;
+    border-radius: 55%;
+    height: 500px;
+    width: 600px;
+}
+
+.networks {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap; /* Da un salto de linea */ 
+flex-direction: column;
+}
+
+.a {
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; /* No de un salto de linea */ 
+}
+
+.log {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.email {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 35px;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 6%;
+}
+
+.email:hover {
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
